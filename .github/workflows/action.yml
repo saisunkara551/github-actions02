@@ -4,7 +4,7 @@ on:
     branches:
       - 'test'
     paths-ignore:
-      - ./src/test/setup.js
+      - src/test/setup.js
 jobs:
  lint:
    runs-on: ubuntu-latest
