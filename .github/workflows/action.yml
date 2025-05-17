@@ -44,5 +44,13 @@ jobs:
       run:  npm ci
     - name: Test
       run: npm run build
+    - name: upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: dist-files
+        path: |
+          dist
+          package.json
+        
       
     
