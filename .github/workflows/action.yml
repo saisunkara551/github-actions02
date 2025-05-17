@@ -5,6 +5,7 @@ on:
       - 'test'
     paths-ignore:
       - src/test/setup.js
+      
 jobs:
  lint:
    runs-on: ubuntu-latest
